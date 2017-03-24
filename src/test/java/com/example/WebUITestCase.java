@@ -17,7 +17,7 @@ public abstract class WebUITestCase
     @Before
     public final void setUp() throws Exception
     {
-        tester = new WicketTester(new WicketApplication());
+        tester = new HackyWicketTester(new WicketApplication());
     }
 
     @After
